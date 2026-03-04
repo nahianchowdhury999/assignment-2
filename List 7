@@ -1,0 +1,13 @@
+void main(){
+ Map<String, String> data = {
+"name": "Nahian",
+"phone": "893u93",
+"mail": "nahian@gmail.com",
+"city": "Sylhet"
+};
+
+var result = 
+  data.keys.where((key) => key.length == 4);
+
+print(result);
+}
