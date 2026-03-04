@@ -1,0 +1,17 @@
+import 'dart:math';
+
+String generatePassword(int length){
+  const chars = "ajndnefnnjen";
+Random random = Random();
+String password = "";
+
+for(inr i=0; i<length; i++){
+  password += chars[random.nextInt(chars.length)];
+}
+
+return password;
+}
+
+void main(){
+ print("Random password: ${generatePassword(10)}");
+}
