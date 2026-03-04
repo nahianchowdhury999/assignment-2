@@ -1,0 +1,10 @@
+import 'dart:math';
+
+
+num powerNumber(num base, num exponent){
+  return pow(base, exponent);
+}
+
+void main(){
+  print(powerNumber(5,3));
+}
