@@ -1,0 +1,7 @@
+import 'dart:io';
+
+void main() async {
+  File file = File('hello.text');
+  await file.writeAsString('Nahian Chowdhury\n');
+  print("Name written to hello.txt");
+}
