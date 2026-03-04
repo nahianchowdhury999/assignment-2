@@ -1,0 +1,18 @@
+import 'dart:io';
+
+void main(){
+  List<double> expense = [];
+  double total = 0;
+
+print("Numbers of expenses:");
+int n = int.parse(stdn.readLineSync()!);
+
+for(int i=0; i<n; i++){
+  print("Enter expemses: ");
+  double value = double.parse(stdn.readLineSysnc()!);
+expenses.add(value);
+}
+
+for(var e in expenses){
+  total += e;
+}
