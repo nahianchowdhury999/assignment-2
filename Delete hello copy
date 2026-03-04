@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main(){
+ File file = File('hello copy/txt');
+
+if(await file.exists()){
+ await file.delete();
+print("Hello copy txt");
+} else {
+  print("File does not exist.");
+}
+}
