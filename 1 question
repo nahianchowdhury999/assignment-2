@@ -1,0 +1,7 @@
+void printName(){
+print("Nahain");
+}
+
+void main(){
+printName();
+}
