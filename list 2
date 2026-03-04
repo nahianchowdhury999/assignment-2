@@ -1,0 +1,7 @@
+void main(){
+  Set<String> fruits = {"Banan", "Apple", "Mango", "Orenge"};
+
+for(var fruit in fruits){
+  print(fruit);
+}
+}
